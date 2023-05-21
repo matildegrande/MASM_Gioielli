@@ -1,0 +1,45 @@
+.top {
+   background-color: #e2e2e2;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+h4 {
+    color: #666666;
+}
+
+h6 {
+    color: #777777;
+}
+
+html {
+    font-family: 'Roboto' sans-serif;
+}
+
+.card-img {
+    height: 500px;
+}
+
+.nav-logo {
+    position: relative;
+    top: -100px;
+}
+
+.buy {
+    color: white;
+    background-color: #777777;
+}
+
+.buy:hover {
+    background-color: #3E3E3E;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-logo {
+        top: -170px;
+    }
+}
